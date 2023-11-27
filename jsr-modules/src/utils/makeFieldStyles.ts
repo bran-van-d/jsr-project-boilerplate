@@ -160,8 +160,9 @@ export function makeBorderStyle(borderField: BorderFieldProps) {
     return null;
   }
 
-  const borderStyle = getBorderFieldCss(borderField);
-  return { border: borderStyle.border };
+  return {
+    border: borderField.css
+  };
 }
 
 export function makeBorderHoverStyle(hoverBorderField: BorderFieldProps) {
@@ -169,8 +170,9 @@ export function makeBorderHoverStyle(hoverBorderField: BorderFieldProps) {
     return null;
   }
 
-  const hoverBorderStyle = getBorderFieldCss(hoverBorderField);
-  return { hoverBorder: hoverBorderStyle.border };
+  return {
+    hoverBorder: hoverBorderField.css
+  }
 }
 
 function generateGradientColorsArray(
