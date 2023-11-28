@@ -1,0 +1,15 @@
+defaultPortal: bvd-jsr-project-boilerplate
+portals:
+  - name: bvd-jsr-project-boilerplate
+    portalId: 890495063
+    env: qa
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CMa54bbBMRIeABoAAAAIAEgMABgGgA6ABAAAAAAAyQEAgANgAAAGGNfAz6gDIOmrjwEouN5HMhQH4RLhVMkLRaZlun6vTLsGznEvOTppAAAEQQAAAAAAAAAAAA8AAAAAAAAAAABAAAAAAJHAAAAAAADAB2gE4D8EgAAAHgAAAAAAAAAAAAAAAAAAAHQAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAACTcUwAAAAAHgAAKH8AAAAMQhTMPtOPJJ9g3cnpFtp2TJVNmsywyEoDbmExUgBaAA
+        expiresAt: '2023-11-28T16:52:07.530Z'
+    personalAccessKey: >-
+      CiQ4N2U1MzVkZS0xOGUxLTQyMDQtOGE2Ny1kNWJjZmMyOGM5Y2MQ18DPqAMY6auPASoZAAXmkYLUAAP_rw2V0xA8VFsCpsuMkOeEwEoDbmEx
+    sandboxAccountType: null
+    parentAccountId: null
